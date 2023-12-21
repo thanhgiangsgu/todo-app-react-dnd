@@ -15,7 +15,7 @@ function App() {
     <DndProvider backend={HTML5Backend}>
       <div className="bg-slate-100 w-screen h-screen flex flex-col items-center p-3 gap-16 pt-32">
         <h1 className="text-[30px] text-red-700">
-          Build Todo App With React-Dnd and Tallwind
+          Build Todo App With React-Dnd and Tailwind
         </h1>
         <CreateTask tasks={tasks} setTasks={setTasks} />
         <ListTasks tasks={tasks} setTasks={setTasks} />
